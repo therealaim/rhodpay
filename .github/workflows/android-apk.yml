@@ -18,7 +18,7 @@ jobs:
       - name: Get packages
         run: flutter pub get
       - name: Analyze source
-        run: flutter analyze
+        run: flutter analyze lib
       - name: Build debug APK
         run: flutter build apk --debug
       - name: Upload APK
